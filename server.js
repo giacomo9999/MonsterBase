@@ -14,7 +14,7 @@ require("dotenv").config()
 mongoose.promise = global.Promise;
 mongoose
   .connect(
-    config.DB,
+    process.env.DB,
     { useNewUrlParser: true }
   )
   .then(
