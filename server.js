@@ -8,6 +8,8 @@ const config = require("./DB.js");
 const businessRoute = require("./business.route");
 const path = require("path");
 
+require("dotenv").config()
+
 mongoose.promise = global.Promise;
 mongoose
   .connect(
