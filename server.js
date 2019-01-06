@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const PORT = 4000;
+const port = process.env.PORT || 5000
 const cors = require("cors");
 const mongoose = require("mongoose");
 const config = require("./DB.js");
@@ -35,6 +36,8 @@ app.use(express.static(path.join(__dirname, "client", "build")));
 app.get("*",(req,res)=>{
   res.sendFile(path.join(__dirname, "client", "build","index.html"));
 })
-app.listen(PORT, function() {
+app.listen(port, function() {
   console.log("Server is running on port ", PORT);
 });
+
+
