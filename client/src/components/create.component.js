@@ -44,7 +44,7 @@ export default class Create extends Component {
       business_gst_number: this.state.business_gst_number
     };
     axios
-      .post("http://localhost:4000/business/add", obj)
+      .post("/business/add", obj)
       .then(res => console.log(res.data));
 
     this.setState({
