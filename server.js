@@ -5,7 +5,7 @@ const PORT = 4000;
 const port = process.env.PORT || 5000
 const cors = require("cors");
 const mongoose = require("mongoose");
-const config = require("./DB.js");
+// const config = require("./DB.js");
 const businessRoute = require("./business.route");
 const path = require("path");
 
