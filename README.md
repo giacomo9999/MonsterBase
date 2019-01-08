@@ -12,3 +12,7 @@ Structural plan of attack before actually writing any code:
 1. Change CSS framework from Bootstrap to Semantic UI.
 2. Move database from local to mLab MongoDB. -- DONE, 4:06PM.
 3. Deploy functioning version to Heroku. -- (surprisingly) DONE, 6:01PM.
+
+08 Jan 2019 -
+
+Branching to implement switch from Bootstrap to Semantic...we'll see how that goes.
