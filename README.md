@@ -16,3 +16,6 @@ Structural plan of attack before actually writing any code:
 08 Jan 2019 -
 
 Branching to implement switch from Bootstrap to Semantic...we'll see how that goes.
+
+Update, 4:23PM - total disaster. Reverting (hopefully) to earlier commit.
+
